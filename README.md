@@ -16,7 +16,7 @@ from convgru import ConvGRU
 # input_size and hidden_sizes reflect feature map depths.
 # Height and Width are preserved by zero padding within the module.
 model = ConvGRU(input_size=8, hidden_sizes=[32,64,16],
-                  kernel_sizes=[3, 5, 3], n_layers=5)
+                  kernel_sizes=[3, 5, 3], n_layers=3)
 
 x = Variable(torch.FloatTensor(1,8,64,64))
 output = model(x)

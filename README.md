@@ -4,7 +4,7 @@ These modules implement an individual `ConvGRUCell` and the corresponding multi-
 
 The ConvGRU is implemented as described in [Ballas *et. al.* 2015: Delving Deeper into Convolutional Networks for Learning Video Representations](https://arxiv.org/abs/1511.06432).
 
-Inspiration for the `ConvGRUCell` was provided by [@halochou](https://github.com/halochou). The `ConvGRU` wrapper is based on the [PyTorch RNN source](http://pytorch.org/docs/master/_modules/torch/nn/modules/rnn.html#RNN).
+The `ConvGRUCell` was largely borrowed from [@halochou](https://github.com/halochou). The `ConvGRU` wrapper is based on the [PyTorch RNN source](http://pytorch.org/docs/master/_modules/torch/nn/modules/rnn.html#RNN).
 
 # Usage
 
